@@ -1,0 +1,49 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector android:height="24dp" android:viewportHeight="82"
+            android:viewportWidth="90" android:width="26.341463dp" xmlns:android="http://schemas.android.com/apk/res/android">
+            <path
+                android:name="path_1"
+                android:fillColor="#00000000" android:fillType="evenOdd"
+                android:pathData="M27.5966,19.8851a17.9903,18.1067 0,1 0,35.9805 0a17.9903,18.1067 0,1 0,-35.9805 0z"
+                android:strokeColor="#FFFFFF" android:strokeWidth="3"/>
+            <path android:fillColor="#00000000" android:fillType="evenOdd"
+                android:pathData="M33.4452,65.0148L53.9807,66.6012L60.3342,61.4334C61.4971,56.8523 61.0791,54.5618 59.0801,54.5618C57.0811,54.5618 51.3691,54.5618 41.9441,54.5618L35.7716,51.8601L22.7109,51.8601L14.1799,58.0773L1.5217,59.2306L1.5217,76.4613L22.7109,76.4613C38.4734,79.1383 47.6256,80.4768 50.1676,80.4768C52.7097,80.4768 57.1126,79.1383 63.3766,76.4613L77.0181,67.4568L87.7138,59.2306C88.1418,56.5614 87.7998,54.6657 86.6879,53.5434C85.576,52.4212 83.939,51.8601 81.777,51.8601L53.9807,66.6012"
+                android:strokeColor="#FFFFFF" android:strokeLineCap="round"
+                android:strokeLineJoin="bevel" android:strokeWidth="3"/>
+            <path android:fillColor="#00000000" android:fillType="evenOdd"
+                android:pathData="M39.4726,50.0452C44.6619,50.2632 48.1168,50.352 49.8371,50.3115C52.4177,50.2508 54.472,49.073 56.8499,49.6363C58.4352,50.0119 59.7456,51.1012 60.7811,52.9042L55.0658,54.2658L46.9073,52.6402L39.4726,50.0452Z"
+                android:strokeColor="#FFFFFF" android:strokeLineCap="round"
+                android:strokeLineJoin="bevel" android:strokeWidth="3"/>
+            <path android:fillColor="#00000000" android:fillType="evenOdd"
+                android:pathData="M61.098,58.5552C68.0742,53.1346 72.4919,50.4243 74.351,50.4243C76.2102,50.4243 77.1397,50.9316 77.1397,51.946L76.9072,54.2811L59.1849,63.5954L61.098,58.5552Z"
+                android:strokeColor="#FFFFFF" android:strokeWidth="3"/>
+            <path android:fillColor="#00000000" android:fillType="evenOdd"
+                android:pathData="M56.0816,54.4762L63.1028,49.9414C65.1782,49.0254 66.65,49.0254 67.5181,49.9414C68.3862,50.8575 67.9522,52.0187 66.216,53.4251L61.6993,56.5343L59.5006,55.0082L56.0816,54.4762Z"
+                android:strokeColor="#FFFFFF" android:strokeWidth="3"/>
+        </vector>
+
+    </aapt:attr>
+    <target android:name="path_1">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="trimPathOffset"
+                    android:duration="500"
+                    android:valueFrom="0.3"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/linear_interpolator"/>
+                <objectAnimator
+                    android:propertyName="trimPathStart"
+                    android:duration="600"
+                    android:valueFrom="1"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/linear_interpolator"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>
